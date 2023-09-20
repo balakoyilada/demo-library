@@ -7,16 +7,13 @@
   "module": "dist/esm/index.js",
   "types": "dist/types.d.ts",
   "scripts": {
-    "test": "jest",
-    "build": "rollup -c --bundleConfigAsCjs",
-    "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build": "rollup -c --bundleConfigAsCjs"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "prop-types": "^15.8.1",
-    "styled-components": "^6.0.8",
+    "styled-components": "^6.0.8"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^25.0.4",
